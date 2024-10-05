@@ -1,0 +1,326 @@
+html {
+    background-color: #005E09;
+
+} 
+       
+       
+       /* -----------------------------Header-------------------------- */
+
+header {
+
+    position: absolute;
+    width: 1903px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+
+    background: linear-gradient(90deg, #005E09 0%, #00920F 100%);
+}
+
+/*logo*/
+
+#Logo {
+    /* ARCADIA */
+
+position: absolute;
+width: 250px;
+height: 50px;
+padding: 25px;
+left: 80px;
+line-height: 76px;
+}
+
+#nav-header {
+    /* Frame 1 */
+
+position: absolute;
+width: 537px;
+height: 29px;
+left: 1200px;
+top: 25px;
+
+}
+
+.nav-list {
+    position: absolute;
+    display: flex;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+
+}
+
+/*a*/
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(80, 202, 255);
+}
+  
+/* Connexion */
+
+#connexion-button {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 1700px;
+    top: 38px;
+}   
+
+/*------------------------------------------------------------------------*/
+
+/*----------------------------------SECTION 1-----------------------------*/
+
+#section-contact {
+
+position: absolute;
+width: 1903px;
+height: 519px;
+left: 0px;
+top: 209px;
+}
+
+.text{
+    position: absolute;
+    width: 806px;
+    height: 162px;
+    left: 291px;
+    top: 51px;
+}
+
+
+h1 {
+position: absolute;
+width: 355px;
+height: 63px;
+
+font-family: 'Kameron';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 76px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+
+
+h4 {
+position: absolute;
+width: 668px;
+height: 57px;
+
+
+font-family: 'Kameron';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+#mail-h1 {
+
+position: absolute;
+left: 500px;
+top: -50px;
+}
+
+#mail-h4 {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+#num-h1 {
+    position: absolute;
+    width: 750px;
+    left: 580px;
+    top: 300px; 
+}
+
+#num-h4 {
+    position: absolute;
+    left: 780px;
+    top: 400px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*-----------------------------  SECTION 2-------------------------------*/
+
+#section-form{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 82px;
+gap: 32px;
+
+position: absolute;
+width: 500px;
+height: 400px;
+left: 630px;
+top: 800px;
+
+background: #FFFFFF;
+
+}
+
+.container {
+    position: absolute;
+    width: 1100px;
+    height: 520px;
+    left: 30px;
+    top: 20px;
+}
+
+legend {
+    /* Contact */
+
+width: 176px;
+height: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 56px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.mb-3 {
+
+position: relative;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1138px;
+height: 82px;
+top: 50px;
+left: 50px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+
+.form-control {
+    width: 500px;
+}
+
+.button {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 230px;
+    top: 460px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.button:hover {
+    background-color: #19a527;
+}
+
+
+
+
+/*---------------------------------SECTION 3--------------------------------*/
+
+#rs {
+
+position: absolute;
+width: 600px;
+height: 294px;
+left: 70px;
+top: 700px;
+}
+
+#rs-h1 {
+    position: absolute;
+    width: 550px;
+    top:-80px;
+}
+
+.reseau-img {
+    position: absolute;
+    left: -20px;
+    top: 100px; 
+}
+
+.reseau-img a {
+    position: left;
+    padding: 45px;
+}
+
+
+
+/*---------------------------------FOOTER------------------------------*/
+
+#footer {
+
+    position: absolute;
+    width: 1903px;
+    height: 206px;
+    left: 0px;
+    top: 1800px;
+    
+    background: #646464;
+    
+    }
+    
+    /* ARCADIA footer logo */
+    
+    #Logo-footer {
+        position: absolute;
+        width: 250px;
+        height: 50px;
+        left:calc(50% - 292px/2);
+        top:60px ;
+    }
+    
+    #copyright {
+        position: absolute;
+        text-align: center;
+        padding: 5px;
+        left:calc(50% - 320px/2); 
+        top: 120px;
+        color: #ffffff;    
+    }

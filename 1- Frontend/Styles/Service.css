@@ -1,0 +1,389 @@
+html {
+    background-color: #005E09;
+} 
+       
+       /* ----------------------Header-------------------- */
+
+header {
+
+    position: absolute;
+    width: 1903px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+
+    background: linear-gradient(90deg, #005E09 0%, #00920F 100%);
+}
+
+/*logo*/
+
+#Logo {
+    /* ARCADIA */
+
+position: absolute;
+width: 250px;
+height: 50px;
+padding: 25px;
+left: 80px;
+line-height: 76px;
+}
+
+#nav-header {
+    /* Frame 1 */
+
+position: absolute;
+width: 537px;
+height: 29px;
+left: 1200px;
+top: 25px;
+
+}
+
+.nav-list {
+    position: absolute;
+    display: flex;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+
+}
+
+/*a*/
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(80, 202, 255);
+}
+  
+/* Connexion */
+
+#connexion-button {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 1700px;
+    top: 38px;
+}   
+
+ 
+
+/*----------------CLASS--------------*/
+
+section {
+position: absolute;
+width: 1903px;
+height: 791px;
+left: 0px;
+/*top: 98px;*/
+}
+
+
+    /*text*/
+
+.text {
+
+position: absolute;
+width: 836px;
+height: 473px;
+}
+h1 {
+    /* RESTAURATION */
+
+position: absolute;
+width: 369px;
+height: 57px;
+
+text-decoration: underline;
+font-family: 'Kameron';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 57px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+/*description*/
+
+p {
+
+position: absolute;
+width: 836px;
+height: 388px;
+
+
+font-family: 'Kameron';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/*image*/
+
+.service-img {
+
+    position: absolute;
+    width: 460px;
+    height: 400px;
+
+}
+
+            /*------------------COMMUN---------------------*/
+
+
+/*Container*/
+
+#resto-container , #guide-container , #train-container {
+    position: absolute;
+    width: 1903px;
+    height: 400px;
+    left: 0px;  
+}
+
+
+
+
+
+/*TITRE*/
+
+#text-resto , #text-train {
+    left: 800px;
+
+}
+
+#resto-h1 , #train-h1 {
+    left: 220px;
+
+}
+
+
+
+/*Images*/
+
+#resto-img , #train-img {
+    left: 100px;
+}
+
+
+/*button*/
+
+#resto-button , #guide-button , #train-button {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 1125px;
+
+}
+
+#resto-button:hover , #guide-button:hover , #train-button:hover {
+    background-color: #00920F;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+/*------------------------SECTION 1: RESTAURATION-----------------------*/
+
+/*section*/
+
+#section-resto {
+    position: absolute;
+    top: 98px;
+}
+
+/*container*/
+
+#resto-container {
+    position: absolute;
+    height: 400px;
+    top: 200px;
+    background-color: #778330;
+}
+
+/* text*/
+
+#text-resto {
+    position: absolute;
+    top: 45px;
+}
+
+/*titre*/
+
+#resto-h1 {
+    position: absolute;
+    top: -90px;
+}
+
+
+/*image*/
+
+#resto-img {
+    width: 600px;
+}
+
+/*button*/
+
+#resto-button {
+    top: 350px;
+}
+
+
+
+/*----------------SECTION 2: Visite Habitat Avec guide--------------------*/
+
+/*section*/
+
+#section-guide {
+    position: absolute;
+    top: 900px;
+}
+
+/*container*/
+
+#guide-container {
+    position: absolute;
+    top: 800px;
+    background-color: #30835B;
+}
+
+/* text*/
+
+#text-guide {
+    position: absolute;
+    top: 70px;
+}
+
+/*titre*/
+
+#guide-h1 {
+    position: absolute;
+    width: 500px;
+    top: -100px;
+    left: 360px;
+}   
+
+#guide-description {
+    left: 200px;
+}
+
+
+/*image*/
+
+#guide-img {
+    position: absolute;
+    left: 1100px;
+}
+
+#guide-button{
+    left: 535px;
+    top: 330px;
+}
+
+
+
+/*------------------SECTION 3: Visite du zoo en petit train-----------------*/
+
+/*section*/
+
+#section-train {
+    position: absolute;
+    top: 1202px;
+}
+
+/*container*/
+
+#train-container {
+    position: absolute;
+    height: 400px;
+    top: 1300px;
+    background-color: #304C83;
+}
+
+/* text*/
+
+#text-train {
+    position: absolute;
+    top: 45px;
+}
+
+/*titre*/
+
+#train-h1 {
+    position: absolute;
+    width: 600px;
+    left: 120px;
+    top: -80px;
+}
+
+
+
+/*Images*/
+
+#train-img {
+    width: 600px;
+}
+
+/*button*/
+
+#train-button {
+    top: 350px;
+}
+
+
+
+
+
+/*------------------------------FOOTER------------------------------------*/
+
+ #footer {
+
+    position: absolute;
+    width: 1903px;
+    height: 206px;
+    left: 0px;
+    top: 1800px;
+    
+    background: #646464;
+    
+    }
+    
+    /* ARCADIA footer logo */
+    
+    #Logo-footer {
+        position: absolute;
+        width: 250px;
+        height: 50px;
+        left:calc(50% - 292px/2);
+        top:60px ;
+    }
+    
+    #copyright {
+        position: absolute;
+        text-align: center;
+        padding: 5px;
+        left:calc(50% - 320px/2); 
+        top: 120px;
+        color: #ffffff;    
+    }

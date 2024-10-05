@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcadia</title>
+    <link rel="stylesheet" href="/1- Frontend/Styles/Style.css">
+</head>
+<body>
+    <header>
+        <a href="Index.html"><img src="/1- Frontend/Images/ARCADIA.png" alt="Logo arcadia" id="Logo"></a>
+                                    <!--NAV BAR-->
+        <nav id="nav-header">
+            <li class="nav-list">
+                <a href="/1- Frontend/Index.html" class="list-link"><ul>Accueil</ul></a>
+                <a href="/1- Frontend/Index/Service.html" class="list-link"><ul>Services</ul></a>
+                <a href="#section-2" class="list-link"><ul>Habitat</ul></a>
+                <a href="/1- Frontend/Index/Contact.html" class="list-link"><ul>Contact</ul></a>
+            </li>
+        </nav>
+        <a href="/1- Frontend/Index.html"><button id="connexion-button">Connexion</button></a>
+    </header>
+
+    <main>
+        <section id="section-1">
+            <div id="img-fond" ><!-- image de fond --></div>
+            <div id="degrader"><!-- dégrader --></div>
+            <div class="intro">
+                <h1 id="title-arcadia">ARCADIA</h1>
+                <p>Arcadia est un zoo situé en France près de la forêt de Brocéliande, en bretagne depuis 1960. 
+                Ils possèdent tout un panel d’animaux, réparti par habitat (savane, jungle, marais) et font 
+                extrêmement attention à leurs santés. Chaque jour, plusieurs vétérinaires viennent afin 
+                d’effectuer les contrôles sur chaque animal avant l’ouverture du zoo afin de s’assurer que tout 
+                se passe bien, de même, toute la nourriture donnée est calculée afin d’avoir le bon grammage 
+                (le bon grammage est précisé dans le rapport du vétérinaire).
+                </p>
+            </div>
+
+                                        <!--IMAGE SCROLL-->
+            <div class="div-img-intro">
+                
+                <img src="/1- Frontend/Images/Accueil/Intro zoo/Image 3.jpg" alt="image de singes" class="img-intro">
+                <img src="/1- Frontend/Images/Accueil/Intro zoo/Image 2.jpg" alt="image de pingouin" class="img-intro">
+                <img src="/1- Frontend/Images/Accueil/Intro zoo/Image 1.jpg" alt="image de zèbres et giraffes" class="img-intro">
+                <img src="/1- Frontend/Images/Accueil/scroll/chevron-right-circle.png" alt="fleche à droite" class="fleche-right">
+                <img src="/1- Frontend/Images/Accueil/scroll/chevron-left-circle.png" alt="Fleche à gauche" class=" fleche-left">
+            </div>        
+        </section>
+        
+        <section id="section-2">
+            <h2 id="habitat-title">HABITAT</h2>
+            <div class="habitat">
+                <div id="savane">
+                     <a href="">
+                        <img src="/1- Frontend/Images/Accueil/Habiat/Savane.jpg" alt="savane" class="savane-img">
+                        <h3 class="habitat-h3">SAVANE</h3>
+                    </a>
+                    
+                </div>
+                <div id="jungle">
+                    <a href="">
+                        <img src="/1- Frontend/Images/Accueil/Habiat/jungle.jpg" alt="jungle" class="jungle-img">
+                        <h3 class="habitat-h3">JUNGLE</h3>
+                    </a>
+                </div>
+                <div id="marais">
+                    <a href="">
+                        <img src="/1- Frontend/Images/Accueil/Habiat/marais.jpg" alt="marais" class="marais-img">
+                        <h3 class="habitat-h3">MARAIS</h3>
+                    </a>    
+                </div>
+            </div>
+        </section>
+
+        <section id="section-3">
+            <h1>Votre avis compte</h1>
+            <div id="formulaire">
+
+                             <!--BOOSTRAP FORM-->
+
+                <div class="input-group">
+                    <input type="text" aria-label="First name" class="form-control-1" placeholder="Nom">
+                    <input type="text" aria-label="Last name" class="form-control-2" placeholder="Prenom">
+                </div>
+
+                             <!--MY FORM AVIS-->
+                             
+                <form action="avis" class="avis">
+                    <div class="avis">
+                        <input type="text" placeholder="Donnez un avis" class="text-form">
+                        <input type="button" value="Envoyer" class="button-form">
+                    </div>
+                    <div id="espace-avis"></div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+        
+    <footer id="footer">
+            <div id="div-footer">
+                <a href="/1- Frontend/Index.html"><img src="/1- Frontend/Images/ARCADIA.png" alt="Logo arcadia" id="Logo-footer"></a>
+                <small id="copyright">Copyright © 2024 Arcadia.fr. Tous droits réservés.</small>
+            </div>
+    </footer>
+            
+    
+</body>
+</html>
