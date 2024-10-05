@@ -1,0 +1,204 @@
+html {
+    background-color: #005E09;
+
+} 
+       
+       
+       /* Header */
+
+header {
+
+    position: absolute;
+    width: 1903px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+
+    background: linear-gradient(90deg, #005E09 0%, #00920F 100%);
+}
+
+/*logo*/
+
+#Logo {
+    /* ARCADIA */
+
+position: absolute;
+width: 250px;
+height: 50px;
+padding: 25px;
+left: 80px;
+line-height: 76px;
+}
+
+#nav-header {
+    /* Frame 1 */
+
+position: absolute;
+width: 537px;
+height: 29px;
+left: 1200px;
+top: 25px;
+
+}
+
+.nav-list {
+    position: absolute;
+    display: flex;
+    margin: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+
+}
+
+/*a*/
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(80, 202, 255);
+}
+  
+/* Connexion */
+
+#connexion-button {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 1700px;
+    top: 38px;
+}   
+
+
+     /*SECTION 1*/
+
+#section-1 {
+
+position: absolute;
+width: 1903px;
+height: 952px;
+left: 0px;
+top: 146px;
+
+/* degrader arcadia */
+color: linear-gradient(180deg, rgba(0, 65, 6, 0) 0%, rgba(1, 116, 12, 0.5) 100%);
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*----------------SECTION-------------------*/
+
+section {
+    position: absolute;
+    width: 1903px;
+    height: 500px;
+    top: 200px;
+    left: 0px;
+}
+
+
+.container {
+    position: absolute;
+    height: 400px;
+    background-color: rgb(4, 51, 20);
+}    
+
+
+form {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    margin: 100px;
+    left: 450px;
+}
+
+
+
+legend {
+    position: relative;
+    top: 10px;
+    left: 310px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-decoration: underline; 
+    color: #FFFFFF;
+
+}
+
+
+.mb-3 {
+    position: relative;
+    top: 20px;
+}
+
+#submit
+ {
+    position: relative;
+    width: 200px;
+    left: 300px;
+}
+
+
+label {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+        /*-----------------------------FOOTER----------------------------*/
+
+#footer {
+
+position: absolute;
+width: 1903px;
+height: 206px;
+left: 0px;
+top: 1000px;
+
+background: #646464;
+
+}
+
+/* ARCADIA footer logo */
+
+#Logo-footer {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left:calc(50% - 292px/2);
+    top:60px ;
+}
+
+#copyright {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    left:calc(50% - 320px/2); 
+    top: 120px;
+    color: #ffffff;    
+}
