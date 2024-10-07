@@ -4,74 +4,46 @@ html {
        
        /* ----------------------Header-------------------- */
 
-header {
-
-    position: absolute;
-    width: 1903px;
+#navbar {
     height: 100px;
-    left: 0px;
-    top: 0px;
-
-
-    background: linear-gradient(90deg, #005E09 0%, #00920F 100%);
+    padding: 25px;
+    line-height: 76px;
+   background-color: #005E09;
 }
 
-/*logo*/
+/*div liste*/
 
-#Logo {
-    /* ARCADIA */
-
-position: absolute;
-width: 250px;
-height: 50px;
-padding: 25px;
-left: 80px;
-line-height: 76px;
-}
-
-#nav-header {
-    /* Frame 1 */
-
-position: absolute;
-width: 537px;
-height: 29px;
-left: 1200px;
-top: 25px;
-
-}
-
-.nav-list {
-    position: absolute;
-    display: flex;
-
+#navbarSupportedContent{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: 'Inter';
+}
+
+
+#logo {
+
+position: relative;
+width: 250px;
+height: 50px;
+left: 40px;
+top: -20px;
+line-height: 76px;
+font-family: 'Kameron';
+
+
+font-size: 40px;
 
 }
 
-/*a*/
-
-a:link {
-    text-decoration: none;
-    color: #FFFFFF;
+nav {
+    background-color: #048a21;
+ /*   background-color: linear-gradient(90deg, #005E09 0%, #00920F 100%); */
 }
 
-a:visited {
-    color: #FFFFFF;
-    text-decoration: none;
-
-}
-
-a:hover {
-    color: rgb(80, 202, 255);
-}
-  
-/* Connexion */
 
 #connexion-button {
     position: absolute;
@@ -79,7 +51,7 @@ a:hover {
     height: 30px;
     left: 1700px;
     top: 38px;
-}   
+}
 
  
 
@@ -170,12 +142,10 @@ color: #FFFFFF;
 
 #text-resto , #text-train {
     left: 800px;
-
 }
 
 #resto-h1 , #train-h1 {
-    left: 220px;
-
+    left: 240px;
 }
 
 
@@ -233,7 +203,8 @@ color: #FFFFFF;
 
 #resto-h1 {
     position: absolute;
-    top: -90px;
+    top: -45px;
+    color: #FFFFFF;
 }
 
 
@@ -280,8 +251,9 @@ color: #FFFFFF;
 #guide-h1 {
     position: absolute;
     width: 500px;
-    top: -100px;
-    left: 360px;
+    top: -60px;
+    left: 400px;
+    color: #FFFFFF;
 }   
 
 #guide-description {
@@ -325,7 +297,7 @@ color: #FFFFFF;
 
 #text-train {
     position: absolute;
-    top: 45px;
+    top: 80px;
 }
 
 /*titre*/
@@ -333,8 +305,9 @@ color: #FFFFFF;
 #train-h1 {
     position: absolute;
     width: 600px;
-    left: 120px;
-    top: -80px;
+    left: 200px;
+    top: -60px;
+    color: #ffffff;
 }
 
 
@@ -383,7 +356,7 @@ color: #FFFFFF;
         position: absolute;
         text-align: center;
         padding: 5px;
-        left:calc(50% - 320px/2); 
+        left:calc(50% - 350px/2); 
         top: 120px;
         color: #ffffff;    
     }

@@ -6,82 +6,55 @@ html {
        
        /* -----------------------------Header-------------------------- */
 
-header {
+       #navbar {
+        height: 100px;
+        padding: 25px;
+        line-height: 76px;
+       background-color: #005E09;
+    }
+    
+    /*div liste*/
+    
+    #navbarSupportedContent{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 19px;
+        color: #ffffff;
+        font-family: 'Inter';
+    }
+    
+    
+    #logo {
+    
+    position: relative;
+    width: 250px;
+    height: 50px;
+    left: 40px;
+    top: -20px;
+    line-height: 76px;
+    font-family: 'Kameron';
+    
+    
+    font-size: 40px;
+    
+    }
+    
+    nav {
+        background-color: #048a21;
+     /*   background-color: linear-gradient(90deg, #005E09 0%, #00920F 100%); */
+    }
+    
+    
+    #connexion-button {
+        position: absolute;
+        width: 123px;
+        height: 30px;
+        left: 1700px;
+        top: 38px;
+    }
 
-    position: absolute;
-    width: 1903px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-
-
-    background: linear-gradient(90deg, #005E09 0%, #00920F 100%);
-}
-
-/*logo*/
-
-#Logo {
-    /* ARCADIA */
-
-position: absolute;
-width: 250px;
-height: 50px;
-padding: 25px;
-left: 80px;
-line-height: 76px;
-}
-
-#nav-header {
-    /* Frame 1 */
-
-position: absolute;
-width: 537px;
-height: 29px;
-left: 1200px;
-top: 25px;
-
-}
-
-.nav-list {
-    position: absolute;
-    display: flex;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 19px;
-    color: #FFFFFF;
-    font-family: 'Inter';
-
-}
-
-/*a*/
-
-a:link {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-a:visited {
-    color: #FFFFFF;
-    text-decoration: none;
-
-}
-
-a:hover {
-    color: rgb(80, 202, 255);
-}
-  
-/* Connexion */
-
-#connexion-button {
-    position: absolute;
-    width: 123px;
-    height: 30px;
-    left: 1700px;
-    top: 38px;
-}   
 
 /*------------------------------------------------------------------------*/
 
@@ -92,7 +65,6 @@ a:hover {
 position: absolute;
 width: 1903px;
 height: 519px;
-left: 0px;
 top: 209px;
 }
 
@@ -100,8 +72,9 @@ top: 209px;
     position: absolute;
     width: 806px;
     height: 162px;
-    left: 291px;
+    left: 350px; 
     top: 51px;
+    color: #ffffff;
 }
 
 
@@ -116,8 +89,6 @@ font-weight: 500;
 font-size: 64px;
 line-height: 76px;
 text-decoration-line: underline;
-
-color: #FFFFFF;
 
 }
 
@@ -134,8 +105,6 @@ font-weight: 400;
 font-size: 40px;
 line-height: 57px;
 /* identical to box height */
-
-color: #FFFFFF;
 }
 
 
@@ -148,21 +117,23 @@ top: -50px;
 
 #mail-h4 {
     position: absolute;
-    left: 400px;
+    left: 450px;
     top: 50px;
 }
 
 #num-h1 {
     position: absolute;
     width: 750px;
-    left: 580px;
+    left:730px;
     top: 300px; 
+    color: #FFFFFF;
 }
 
 #num-h4 {
     position: absolute;
-    left: 780px;
+    left: 850px;
     top: 400px;
+    color: #ffffff;
 }
 
 /*-----------------------------------------------------------------------*/
@@ -177,9 +148,9 @@ padding: 82px;
 gap: 32px;
 
 position: absolute;
-width: 500px;
-height: 400px;
-left: 630px;
+width: 700px;
+height: 600px;
+left: 600px;
 top: 800px;
 
 background: #FFFFFF;
@@ -226,9 +197,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 1138px;
+width: 500px;
 height: 82px;
-top: 50px;
 left: 50px;
 /* Inside auto layout */
 flex: none;
@@ -249,7 +219,7 @@ flex-grow: 0;
     width: 150px;
     height: 30px;
     left: 230px;
-    top: 460px;
+    top: 500px;
     font-size: 15px;
     color: #000000;
     background-color: #ffffff;
@@ -269,14 +239,16 @@ flex-grow: 0;
 position: absolute;
 width: 600px;
 height: 294px;
-left: 70px;
+left: 55px;
 top: 700px;
 }
 
 #rs-h1 {
     position: absolute;
     width: 550px;
+    left: 110px;
     top:-80px;
+    color: #ffffff;
 }
 
 .reseau-img {
