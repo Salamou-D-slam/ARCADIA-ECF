@@ -292,7 +292,7 @@ top: 700px;
         position: absolute;
         text-align: center;
         padding: 5px;
-        left:calc(50% - 320px/2); 
+        left:calc(50% - 350px/2); 
         top: 120px;
         color: #ffffff;    
     }

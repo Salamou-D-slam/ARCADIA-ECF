@@ -18,12 +18,7 @@ header {
 */
     /*navbar*/
 
-#navbar {
-    height: 100px;
-    padding: 25px;
-    line-height: 76px;
-   background-color: #005E09;
-}
+
 
 /*div liste*/
 
@@ -78,11 +73,21 @@ height: 950px;
 left: 0px;
 top: 45px;
 
+
 /* degrader arcadia */
 color: linear-gradient(180deg, rgba(0, 65, 6, 0) 0%, rgba(1, 116, 12, 0.5) 100%);
 
 }
 
+
+#container {
+    display: grid;
+    grid-column-gap:20px;
+}
+
+#container > p {
+    background-color: aqua;
+}
 /* ARCADIA */
 
 
@@ -174,7 +179,7 @@ color: #FFFFFF;
     top: 140px;
 }
 
-        /*SECTION 2*/
+        /*----------------------------SECTION 2------------*/
         
 #section-2 {
     position: absolute;
@@ -185,6 +190,12 @@ color: #FFFFFF;
     background-color: #4B8446;
 }
 
+#container-fluid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 80px repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
 
 
 
@@ -298,6 +309,11 @@ position: absolute;
 top: 30px;
 }
 
+
+
+
+
+/*--------------------------------------------------------*/
 #section-3 {
 position: absolute;
 width: 1903px;
@@ -457,3 +473,22 @@ background: #646464;
     top: 120px;
     color: #ffffff;    
 }
+
+
+            /*----------------------------------------------------------------MEDIA QUERY------------------------------------------------------------*/
+/*
+    Mobile Devices: 319px — 480px
+    iPads and Tablets: 481px — 1200px
+    Laptops: 1201px — 1600px
+    Desktops: 1601px and more
+*/
+ @media (max-width: 480px) {
+    #title-arcadia{
+        text-align: center;
+        float: left;
+    }
+ }
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
