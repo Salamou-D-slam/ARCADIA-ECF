@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service</title>
-    <link rel="stylesheet" href="/1- Frontend/Styles/Service.css">
+    <link rel="stylesheet" href="/1- Frontend/Styles/Service2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: #005E09;">
 
                                     <!--HEADER-->
                                     <header>
@@ -35,7 +35,7 @@
                              </li>
                          </ul>
                                <a href="/1- Frontend/Index/Connexion.html">
-                               <button type="button" class="btn btn-primary">Connexion</button>      
+                               <button type="button" class="btn btn-outline-light">Connexion</button>      
                                </a>
                        </div>
                    </div>
@@ -43,56 +43,58 @@
            </header>
     <main>
                             <!--SECTION 1: RESTAURATION-->
-        <section id="section-resto">
-            <div id="resto-container">
-                <div class="text" id="text-resto">
-                    <h1 id="resto-h1">RESTAURATION</h1>
-                    <p id="resto-description">La restauration d'un zoo modernise ses installations pour améliorer le bien-être des animaux et enrichir l'expérience des visiteurs. Ce projet comprend la rénovation des enclos, l'intégration de technologies écologiques, et le développement de programmes éducatifs sur la conservation. L'objectif est de créer un environnement adapté aux besoins des animaux tout en sensibilisant le public à la préservation de la biodiversité.</p>
-                </div>
-                <div class="service-img">
-                    <img src="/1- Frontend/Images/Service/Restauation/image 1.jpg" alt="image d'un restaurant" class="service-img" id="resto-img">
-                </div>
-                <a href="">
-                    <input type="button" value="En Savoir Plus" id="resto-button">
-                </a>
-            </div>
-        </section>
+<div class="card mb-3">
+  <div class="row g-0" id="row-resto">
+    <div class="col-md-4">
+      <img src="/1- Frontend/Images/Service/Restauation/image 1.jpg" class="img-fluid rounded-start" id="img-resto" alt="image d'un restaurant">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h1 class="card-title">RESTAURATION</h1>
+        <p class="card-text">La restauration d'un zoo modernise ses installations pour améliorer le bien-être des animaux et enrichir l'expérience des visiteurs. Ce projet comprend la rénovation des enclos, l'intégration de technologies écologiques, et le développement de programmes éducatifs sur la conservation. L'objectif est de créer un environnement adapté aux besoins des animaux tout en sensibilisant le public à la préservation de la biodiversité.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
                         <!--SECTION 2: Visite Habitat Avec guide-->
 
-        <section id="section-guide"></section>
-            <div id="guide-container">
-                <div class="text" id="text-guide">
-                    <h1 id="guide-h1">Visite Habitat Avec guide</h1>
-                    <p id="guide-description">Une visite guidée d'un zoo permet de découvrir les animaux et leurs habitats grâce aux explications d'un expert. Le guide offre des informations intéressantes sur les espèces et les efforts de conservation, tout en répondant aux questions des visiteurs. Cette approche enrichissante rend la visite plus interactive et instructive.</p>
-                </div>
-                <div class="service-img">
-                  <img src="/1- Frontend/Images/Service/Visite zoo/image1.jpg" alt="image de giraffes" id="guide-img">
-                </div>
-                <a href="">
-                    <input type="button" value="En Savoir Plus" id="guide-button">
-                </a>
-            </div>
-        </section>
+ <div class="card mb-3" >
+  <div class="row g-0" id="row-guide">
+    <div class="col-md-4">
+      <img src="/1- Frontend/Images/Service/Visite zoo/image1.jpg" class="img-fluid rounded-start" id="img-guide" alt="image d'un restaurant">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h1 class="card-title">Visite Habitat Avec guide</h1>
+        <p class="card-text">Une visite guidée d'un zoo permet de découvrir les animaux et leurs habitats grâce aux explications d'un expert. Le guide offre des informations intéressantes sur les espèces et les efforts de conservation, tout en répondant aux questions des visiteurs. Cette approche enrichissante rend la visite plus interactive et instructive.</p>
+      </div>
+    </div>
+  </div>
+</div>                       
 
                         <!--SECTION 3: Visite du zoo en petit train-->
 
-        <section id="section-train"></section>
-            <div id="train-container">
-                <div class="text" id="text-train">
-                    <h1 id="train-h1"> Visite du zoo en petit train </h1>
-                    <p id="train-description">Bienvenue à bord du petit train du zoo ! Au cours de cette visite, vous aurez l'occasion de découvrir plusieurs espèces animales fascinantes tout en profitant d'une promenade agréable. Vous traverserez différents enclos et zones du parc, tout en apprenant des faits intéressants sur la faune et les efforts de conservation du zoo. Installez-vous temporairement et laissez-vous guider à travers ce voyage au cœur de la nature et de</p>
-                </div>
-                <div class="service-img">
-                    <img src="/1- Frontend/Images/Service/visite en petit train/image 1.jpg" alt="image de giraffes" class="service-img" id="train-img" id="train-img"> 
-                </div>
-                <a href="">
-                    <input type="button" value="En Savoir Plus" id="train-button">
-                </a>
-            </div>
-        </section>
-    </main>
-                                        <!--FOOTER-->
+ <div class="card mb-3">
+  <div class="row g-0" id="row-train">
+    <div class="col-md-4">
+      <img src="/1- Frontend/Images/Service/visite en petit train/image 1.jpg" class="img-fluid rounded-start" id="img-train" alt="image d'un restaurant">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h1 class="card-title">Visite du zoo en petit train</h1>
+        <p class="card-text">Bienvenue à bord du petit train du zoo ! Au cours de cette visite, vous aurez l'occasion de découvrir plusieurs espèces animales fascinantes tout en profitant d'une promenade agréable. Vous traverserez différents enclos et zones du parc, tout en apprenant des faits intéressants sur la faune et les efforts de conservation du zoo. Installez-vous temporairement et laissez-vous guider à travers ce voyage au cœur de la nature.</p>
+      </div>
+    </div>
+  </div>
+</div>                         
+    </main> 
+
+
+                                        <!-------------------FOOTER------------------->
+
     <footer id="footer">
         <div id="div-footer">
             <a href="/1- Frontend/Index.html"><img src="/1- Frontend/Images/ARCADIA.png" alt="Logo arcadia" id="Logo-footer"></a>

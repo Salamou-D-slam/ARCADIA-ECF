@@ -1,10 +1,4 @@
-html {
-    background-color: #005E09;
-
-} 
-       
-       
-       /* Header */
+             /* Header */
 
        #navbar {
         height: 100px;
@@ -59,38 +53,30 @@ html {
 
 
 /*----------------SECTION-------------------*/
-
-section {
-    position: absolute;
+/*
+#form-section {
     width: 1903px;
     height: 500px;
-    top: 200px;
-    left: 0px;
-}
 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+*/
 
 .container {
-    position: absolute;
     height: 400px;
     background-color: rgb(4, 51, 20);
 }    
 
 
 form {
-    position: absolute;
     width: 800px;
     height: 400px;
-    margin: 100px;
-    left: 450px;
+    margin: 100px auto;
 }
 
-
-
 legend {
-    position: relative;
-    top: 10px;
-    left: 310px;
-
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     text-decoration: underline; 
@@ -100,15 +86,12 @@ legend {
 
 
 .mb-3 {
-    position: relative;
-    top: 20px;
+    margin: 10px auto;
 }
 
 #submit
  {
-    position: relative;
     width: 200px;
-    left: 300px;
 }
 
 
@@ -119,41 +102,66 @@ label {
 
 
 
+        /*----------------------------------------------FOOTER-----------------------------------------------*/
+
+        #footer {
+            height: 206px;
+            background: #646464;
+        
+        }
+        
+        
+        #div-footer{
+            width: 460px;
+            height: 206px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 200px auto;
+        }
+        
+        #div-footer a{
+            margin:60px auto ;
+        }
+        
+        #Logo-footer {
+            width: 250px;
+            height: 50px;
+            margin: 0px auto;
+        }
+        
+        #copyright {
+            height: 20px;
+            margin: -60px auto;
+            color: #ffffff;
+        }
+        
+        
 
 
+        
 
 
+/*----------------------------- MEDIA QUERY-----------------------------------*/
 
-
-        /*-----------------------------FOOTER----------------------------*/
-
-#footer {
-
-position: absolute;
-width: 1903px;
-height: 206px;
-left: 0px;
-top: 1000px;
-
-background: #646464;
-
+@media (min-width: 577px) and (max-width: 991px) {
+    form{
+        width: 700px;
+    }
+   
 }
 
-/* ARCADIA footer logo */
 
-#Logo-footer {
-    position: absolute;
-    width: 250px;
-    height: 50px;
-    left:calc(50% - 292px/2);
-    top:60px ;
-}
+@media (min-width: 576px) and (max-width: 766px) {
+    form{
+        width: 500px;
+    }
+   
+}   
 
-#copyright {
-    position: absolute;
-    text-align: center;
-    padding: 5px;
-    left:calc(50% - 350px/2); 
-    top: 120px;
-    color: #ffffff;    
+
+@media (max-width: 575px) {
+    form{
+        width: 400px;
+    }
+   
 }
