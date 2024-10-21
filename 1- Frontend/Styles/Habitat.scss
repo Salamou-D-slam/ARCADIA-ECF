@@ -1,0 +1,153 @@
+/*--------------------------------SASS--------------------------*/
+
+
+/*-----COLOR--------*/
+
+$color-theme: #005E09;
+$color-degrader: linear-gradient(180deg, rgba(0, 65, 6, 0) 0%, rgb(0, 75, 7) 100%);
+
+/*------SIZE---------*/
+
+$habitat-img-width: 448px;
+$habitat-img-height: 275px;
+
+
+/*-----FONT------*/
+
+$font-text: 'Kameron';
+$font-size-title: 64px;
+$font-size-p: 24px;
+
+@mixin text-style {
+    $font-text: 'Kameron';
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: 'Inter';
+}
+
+/*--------------------------------------------------------------*/
+
+
+/*---------------------------------------------- Header------------------------------------------ */
+
+
+
+/*navbar*/
+
+#navbarSupportedContent{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: 'Inter';
+}
+
+#logo {
+
+position: relative;
+width: 250px;
+height: 50px;
+left: 40px;
+top: -20px;
+line-height: 76px;
+font-family: 'Kameron';
+
+
+font-size: 40px;
+
+}
+
+nav {
+    background-color: #048a21;
+ /*   background-color: linear-gradient(90deg, #005E09 0%, #00920F 100%); */
+}
+
+
+#connexion-button {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 1700px;
+    top: 38px;
+}   
+
+/*---------------------------------------------------------------------------------*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.card{
+    margin: 50px auto;
+}
+.card-body{   
+     text-align: center;
+}
+
+.card-img-bottom{
+    height: 500px;
+}
+
+h1 , p {
+    @include text-style
+}
+
+.savane-card{
+    background: #9A7451;
+}
+
+.jungle-card{
+    background: #588E01;
+}
+
+.marais-card{
+    background: #315281;
+}
+
+.title-h1{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+ /*----------------------------------------------FOOTER-----------------------------------------------*/
+
+ #footer {
+    height: 206px;
+    background: #646464;
+
+}
+
+
+#div-footer{
+    width: 460px;
+    height: 206px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#div-footer a{
+    margin:60px auto ;
+}
+
+#Logo-footer {
+    width: 250px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+#copyright {
+    height: 20px;
+    margin: -60px auto;
+    color: #ffffff;
+}
+
+
