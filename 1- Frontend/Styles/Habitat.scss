@@ -1,23 +1,6 @@
 /*--------------------------------SASS--------------------------*/
 
 
-/*-----COLOR--------*/
-
-$color-theme: #005E09;
-$color-degrader: linear-gradient(180deg, rgba(0, 65, 6, 0) 0%, rgb(0, 75, 7) 100%);
-
-/*------SIZE---------*/
-
-$habitat-img-width: 448px;
-$habitat-img-height: 275px;
-
-
-/*-----FONT------*/
-
-$font-text: 'Kameron';
-$font-size-title: 64px;
-$font-size-p: 24px;
-
 @mixin text-style {
     $font-text: 'Kameron';
     font-family: 'Inter';
@@ -26,7 +9,22 @@ $font-size-p: 24px;
     font-size: 20px;
     line-height: 19px;
     color: #ffffff;
+}
+
+@mixin title-style {
+    $font-text: 'Kameron';
     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+@mixin img-filter{
+    filter: contrast(120%);
+    filter: brightness(110%);
+    filter: blur(2px);
 }
 
 /*--------------------------------------------------------------*/
@@ -79,47 +77,54 @@ nav {
 
 /*---------------------------------------------------------------------------------*/
 
+/*---------------------------------COMMUN------------------------------------------*/
 .container{
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
 }
 
-.card{
-    margin: 50px auto;
-}
-.card-body{   
-     text-align: center;
-}
-
-.card-img-bottom{
-    height: 500px;
+ .card{
+     width: 1000px;
+     margin: 50px auto;
+     box-shadow: 00px 0px 10px 0px rgb(0, 255, 85);
 }
 
-h1 , p {
-    @include text-style
+.card-img-overlay{
+    height: 300px;
+    margin: 150px auto;
+    text-align: center;
+    @include title-style;
+    font-size: 70px;
 }
 
-.savane-card{
-    background: #9A7451;
+ .card-img {
+     height: 500px;
+     @include img-filter;
 }
 
-.jungle-card{
-    background: #588E01;
+.card-title{
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+
+    @include title-style;
+    font-size: 70px;
+    background-color: #006d55;
+
+box-shadow: 10px 10px 10px 0px rgb(0, 94, 31);
+    
 }
 
-.marais-card{
-    background: #315281;
+.btn-success{
+    margin: 80px auto;
+    justify-content: center;
 }
 
-.title-h1{
-    color: #ffffff;
-    text-decoration: underline;
-}
 
 
  /*----------------------------------------------FOOTER-----------------------------------------------*/
 
- #footer {
+ footer {
     height: 206px;
     background: #646464;
 

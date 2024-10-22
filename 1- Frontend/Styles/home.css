@@ -64,7 +64,7 @@ nav {
     height: 30px;
     left: 1700px;
     top: 38px;
-}   
+}
 
 /*---------------------------------------------------------------------------------*/
 
@@ -79,7 +79,7 @@ nav {
 /*IMAMGE DE FOND*/
 
 #img-fond {
-    width: 1903px;
+    width: 3000px;
     height: 952px;
     margin: 0px 0px auto;
     background: url(/1-\ Frontend/Images/Accueil/Fond/image\ de\ fond.jpg);
@@ -87,7 +87,7 @@ nav {
 }
 
 #degrader {
-    width: 1903px;
+    width: 3000px;
     height: 952px;
     margin: -952px auto;
 
@@ -101,7 +101,7 @@ nav {
 .intro {
     position: absolute;
     margin: 0px auto;
-    
+
     display: flex;
     flex-wrap: wrap;
 
@@ -111,23 +111,23 @@ nav {
 #title-arcadia {
     height: 76px;
     margin:  60px auto;
-    
+
     font-family: 'Kameron';
     font-style: normal;
     font-weight: 547;
     font-size: 64px;
     line-height: 76px;
-    
+
     text-align: center;
     text-decoration-line: underline;
     text-transform: uppercase;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}    
+}
 
 #para-intro {
     height: 186px;
     margin: 40px 120px;
-    
+
     font-family: 'Kameron';
     font-style: normal;
     font-weight: 547;
@@ -155,7 +155,7 @@ nav {
 
     display: flex;
     flex-wrap: wrap;
-    
+
     margin: 200px auto;
 
 }
@@ -276,13 +276,13 @@ color: #FFFFFF;
 
 .container-animaux{
     width: 500px;
-    height: 800px;
+    height: 900px;
     margin: 0px auto;
     margin-bottom: 200px;
 
     display: flex;
     flex-wrap: wrap;
-    
+
     box-shadow: 15px 15px 10px 0px rgb(110, 134, 0);
     background-color: #007c61;
 }
@@ -298,7 +298,6 @@ font-style: normal;
 font-weight: 547;
 font-size: 60px;
 line-height: 76px;
-/* identical to box height */
 text-align: center;
 text-decoration-line: underline;
 text-transform: uppercase;
@@ -306,6 +305,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 color: #FFFFFF;
 }
+
 
 #card-animaux{
     margin: 80px auto;
@@ -316,9 +316,27 @@ color: #FFFFFF;
 }
 
 
+.list-group-item h3 {
+    font-family: 'Kameron';
+font-style: normal;
+font-weight: 547;
+font-size: 40px;
+line-height: 76px;
+text-align: center;
+text-transform: uppercase;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.list-group{
+    font-family: 'Kameron';
+    font-style: normal;
+    font-weight: 547;
+    text-align: center;
+}
+
 .btn-outline-success{
     width: 133px ;
-background-color: brown;
 }
 
 
@@ -348,7 +366,7 @@ background-color: brown;
     width: 280px;
     height: 50px;
     margin: 25px auto;
-    
+
     font-family: 'Kameron';
     font-style: normal;
     font-weight: 400;
@@ -356,7 +374,7 @@ background-color: brown;
     line-height: 43px;
     text-decoration: underline;
     /* identical to box height */
-    
+
     color: #FFFFFF;
 }
 
@@ -373,8 +391,8 @@ background-color: brown;
 
 
 
-.form-control-1 , .form-control-2 {
-    width: 250px;
+.form-control-1 {
+    width: 500px;
     height: 30px;
 }
 
@@ -472,12 +490,12 @@ background-color: brown;
     .container-services{
          width: 400px;
          margin: 200px auto;
-    } 
+    }
 
 
 
-    
-}   
+
+}
 
 
 
@@ -490,9 +508,9 @@ background-color: brown;
     #espace-avis {
         width: 600px;
     }
-    
-    
-}  
+
+
+}
 
 
 @media (max-width: 652px) {
@@ -506,7 +524,7 @@ background-color: brown;
 
     .container-carousel {
         width: 520px;
-        margin: -450px auto; 
+        margin: -450px auto;
     }
 
     .container-animaux{
@@ -529,7 +547,7 @@ background-color: brown;
     #button-avis{
         margin: 20px 100px;
     }
-    
+
 
 
 
@@ -537,7 +555,7 @@ background-color: brown;
         width: 480px;
     }
 
-    
-}   
+
+}
 
 
