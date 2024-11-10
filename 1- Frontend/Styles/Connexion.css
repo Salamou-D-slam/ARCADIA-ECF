@@ -69,6 +69,15 @@
     background-color: rgb(4, 51, 20);
 }    
 
+#user{
+    margin: 30px auto;
+
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    /* text-decoration: underline;  */
+    color: #FFFFFF;
+}
 
 form {
     width: 800px;
@@ -86,7 +95,7 @@ legend {
 
 
 .mb-3 {
-    margin: 10px auto;
+    margin: 30px auto;
 }
 
 #submit
