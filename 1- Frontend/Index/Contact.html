@@ -45,23 +45,23 @@
                 
         <div id="section-form">
             <div class="container">
-                <form action="contact">
-                    <legend>Conatct</legend>
+                <form id="contactForm">
+                    <legend>Contact</legend>
                                 <!--BOOSTRAP FORM-->
                     <div class="mb-3">
                         <label for="Titre" class="form-label">Titre</label>
-                        <input type="text" class="form-control" id="nom-form">
+                        <input type="text" class="form-control" id="nom-form" required>
                       </div>
                       <div class="mb-3">
                         <label for="mail" class="form-label">Mail</label>
-                        <input type="email" class="form-control" id="mail-form">
+                        <input type="email" class="form-control" id="mail-form" required>
                       </div>
                       <div class="mb-3">
                         <label for="Description" class="form-label">Description</label>
-                        <textarea class="form-control" id="comment-form" rows="3"></textarea>
+                        <textarea class="form-control" id="comment-form" rows="3" required></textarea>
                       </div>
                       <div class="mb-3 form-check">
-                        <button type="button" class="btn btn-success button">Enoyer</button>
+                        <input type="submit" class="btn btn-success button" value="Enoyer">
                       </div>                
                 </form>
             </div>
@@ -72,11 +72,12 @@
     <footer id="footer">
         <div id="div-footer">
             <a href="/1- Frontend/Index.html"><img src="/1- Frontend/Images/ARCADIA.png" alt="Logo arcadia" id="Logo-footer"></a>
-            <small id="copyright">Copyright © 2024 Arcadia.fr. Tous droits réservés.</small>
+            <small id="copyright">Copyright © <span id="year"></span> Arcadia.fr. Tous droits réservés.</small>
         </div>
 </footer>
 
 
+<script src="/1- Frontend/Script/index.js"></script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

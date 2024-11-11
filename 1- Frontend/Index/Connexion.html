@@ -44,7 +44,7 @@
         <div id="form-section">
 
                  
-            <form id="formulaire">
+            <form action="" id="formulaire">
               <div class="container">
                 <legend>CONNEXION</legend>
                 <div id="choiceStatut">
@@ -55,15 +55,15 @@
                 <!----------------------BOOSTRAP------------------------------>
 
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Adresse Mail</label>
+                  <label for="email" class="form-label">Adresse Mail</label>
                   <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
                 </div>  
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                  <label for="password" class="form-label">Mot de passe</label>
                   <input type="password" class="form-control" id="password1">
                 </div>
                 <div class="mb-3 form-check" id="submit">
-                  <button type="button" class="btn btn-outline-light">Se Conecter</button>
+                  <input type="submit" class="btn btn-outline-light" value="Se Conecter">
                 </div>
               </div>
             </form> 
@@ -75,7 +75,7 @@
     <footer id="footer">
         <div id="div-footer">
             <a href="/1- Frontend/Index.html"><img src="/1- Frontend/Images/ARCADIA.png" alt="Logo arcadia" id="Logo-footer"></a>
-            <small id="copyright">Copyright © 2024 Arcadia.fr. Tous droits réservés.</small>
+            <small id="copyright">Copyright © <span id="year"></span> Arcadia.fr. Tous droits réservés.</small>
         </div>
 </footer>
         
@@ -85,7 +85,7 @@
 
 
 
-
+<script src="/1- Frontend/Script/index.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
