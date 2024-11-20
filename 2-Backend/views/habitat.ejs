@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcadia</title>
+     <link rel="stylesheet" href="/CSS/habitat.css">
+
+<%- include("partials/header.ejs") %>
+
+ <!----------------------------------------------------- SAVANE---------------------------------------- -->
+
+ <div class="container">
+    <div class="card text-bg-dark">
+<img src="/Images/Habitat/index/savane.jpg" class="card-img" alt="Image de savane">
+<div class="card-img-overlay div-savane">
+<h1 class="card-title title-savane">SAVANE</h1>
+<a href="/savane"> 
+<button type="button" class="btn btn-success btn-savane">En Savoir Plus</button>
+</a>
+</div>
+</div>
+</div>
+  <!----------------------------------------------------- JUNGLE---------------------------------------- -->
+
+
+<div class="container">        
+<div class="card text-bg-dark" onmouseover = "shadow(this)" onmouseout = "normal(this)">
+<img src="/Images/Habitat/index/jungle.jpg" class="card-img" alt="Image de Jungle">
+<div class="card-img-overlay div-jungle ">
+<h1 class="card-title title-jungle">JUNGLE</h1>
+<a href="/jungle"> <button type="button" class="btn btn-success btn-jungle">En Savoir Plus</button> </a>
+</div>
+</div>
+</div> 
+  <!----------------------------------------------------- MARAIS---------------------------------------- -->
+
+
+      <div class="container">
+    <div class="card text-bg-dark" onmouseover = "shadow(this)" onmouseout = "normal(this)">
+<img src="/Images/Habitat/index/marais.jpg" class="card-img" alt="Image de Marais">
+<div class="card-img-overlay div-marais">
+<h1 class="card-title title-marais">MARAIS</h1>
+<a href="/marais"> <button type="button" class="btn btn-success btn-savane">En Savoir Plus</button> </a>
+</div>
+</div>
+</div>
+
+<!--------------------------------------------FOOTER------------------------------------------>
+<footer id="footer">
+    <div id="div-footer">
+    <a href="/"><img src="/Images/ARCADIA.png" alt="Logo arcadia" id="Logo-footer"></a>
+    <small id="copyright">Copyright © <span id="year"></span> Arcadia.fr. Tous droits réservés.</small>
+    </div>
+    </footer>
+    
+    
+    <script src="/Script/habitat.js"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>

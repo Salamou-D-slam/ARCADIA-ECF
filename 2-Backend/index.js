@@ -1,8 +1,8 @@
 import express from "express";
 import bodyParser from "body-parser";
-// import { dirname } from "path";
-// import { fileURLToPath } from "url";
-// const __dirname = dirname(fileURLToPath(import.meta.url));
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
 import pg from "pg";
 
 
@@ -21,39 +21,49 @@ const db = new pg.Client({
 
 db.connect();
 
-// let compte = [];
-// db.query("SELECT * FROM utilisateurs", (err, res) => {
-//   if (err) {
-//     console.error("Error executing query", err.stack);
-//   } else {
-//     compte = res.rows;
-//   }
-//   db.end();
-// });
-
-
-// var userIsAuthorised = false;
-
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-// function passGenerator(req ,res, next) {
-//     const email = req.body["email"];
-//     const password = req.body["password"]; //regarder le name dans le formulair html
-//     if(email === "admin@gmail.com" && password === "admin19000"){
-//         userIsAuthorised = true;
-//     } else {
-//         userIsAuthorised = false;
-//       }
-//     next ();
-// }
-
-// app.use(passGenerator);
  
 app.get("/", (req, res) => {
-    res.render("connexion.ejs"); //__dirname + "/public/connexion_bk.html"
+    res.render("home.ejs"); //__dirname + "/public/connexion_bk.html"
 });
+
+app.get("/connexion", (req, res) => {
+  res.render("connexion.ejs"); //__dirname + "/public/connexion_bk.html"
+});
+
+app.get("/service", (req, res) => {
+  res.render("service.ejs"); //__dirname + "/public/connexion_bk.html"
+});
+
+app.get("/habitat", (req, res) => {
+  res.render("habitat.ejs"); //__dirname + "/public/connexion_bk.html"
+});
+
+app.get("/contact", (req, res) => {
+  res.render("contact.ejs"); //__dirname + "/public/connexion_bk.html"
+});
+
+app.get("/savane", (req, res) => {
+  res.render("savane.ejs"); //__dirname + "/public/connexion_bk.html"
+});
+
+app.get("/jungle", (req, res) => {
+  res.render("jungle.ejs"); //__dirname + "/public/connexion_bk.html"
+});
+
+app.get("/marais", (req, res) => {
+  res.render("marais.ejs"); //__dirname + "/public/connexion_bk.html"
+});
+
+
+
+
+app.get("/logout", (req, res) => {
+    res.redirect("/");
+  });
 
 app.post("/check", async (req, res) => {
   const email = req.body.username;
@@ -80,14 +90,6 @@ app.post("/check", async (req, res) => {
   } catch (err) {
     console.log(err);
   }
-
-  
-    // if (userIsAuthorised) {
-    //     res.sendFile(__dirname + "/public/secret.html");
-    //   } else {
-    //     res.sendFile(__dirname + "/public/connexion_bk.html");
-    //     //Alternatively res.redirect("/");
-    //   }
 });
 
 app.listen(port, () => {

@@ -5,10 +5,20 @@ CREATE TABLE users(
     password VARCHAR (100)
 );
 
+INSERT INTO users
+VALUES (1, 'islamtest', 'islamtest@gmail.com', 'islamtest19000')
+
+
+
 CREATE table roles (
   id SERIAL primary key,
   label varchar (100)
 );
+
+INSERT INTO roles
+VALUES (1, 'administrateur')
+VALUES (1, 'employé')
+VALUES (1, 'vétérinaire')
 
 
 CREATE table services(

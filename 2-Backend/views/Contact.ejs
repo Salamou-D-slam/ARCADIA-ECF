@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/CSS/Contact.css">
+    
+    <%- include("partials/header.ejs") %>
+
+                                <!--SECTION 1-->
+                
+        <div id="section-form">
+            <div class="container">
+                <form name="contactForm" id="contactForm">
+                    <legend>Contact</legend>
+                                <!--BOOSTRAP FORM-->
+                    <div class="mb-3">
+                        <label for="Titre" class="form-label">Titre</label>
+                        <input type="text" class="form-control" id="nom-form" required autocomplete="off">
+                      </div>
+                      <div class="mb-3">
+                        <label for="mail" class="form-label">Mail</label>
+                        <input type="email" class="form-control" id="mail-form" required autocomplete="off">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Description" class="form-label">Description</label>
+                        <textarea class="form-control" id="comment-form" rows="3" required autocomplete="off"></textarea>
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="submit" class="btn btn-success button" value="Enoyer">
+                      </div>                
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <%- include("partials/footer.ejs") %>                                    

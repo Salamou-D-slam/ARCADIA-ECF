@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitat-Savane</title>
+    <link rel="stylesheet" href="/CSS/Savane.css">
+    
+    <%- include("partials/header.ejs") %>
+
+                      <!-- --------------------------CARD IMAGE-------------------------->
+
+        <div class="card">
+            <div class="card-body card-marais">
+              <h1 class="title-h1">Marais</h1>
+              <p class="card-text">Bienvenue dans notre zone de marais, un écosystème captivant où l'eau et la terre se rencontrent. Ici, vous pourrez observer nos pingouins, 
+                qui se déplacent avec une grâce étonnante, plongeant dans l'eau pour attraper leurs poissons. Admirez les élégants flamants roses, qui se tiennent en équilibre sur une patte,
+                ajoutant une touche de couleur à ce paysage humide. Les canards, quant à eux, glissent paisiblement sur l'eau, poussant parfois un croassement joyeux. 
+                Cette partie du zoo vous offre un aperçu fascinant de la vie dans les zones humides et de la beauté de ses habitants.</p>
+            </div>
+            <img src="/Images/Habitat/index/marais.jpg" class="card-img-bottom savane-img" alt="Image de marais">
+          </div>
+
+
+
+                <!-- --------------------------ANIMAUX-------------------------->
+
+      <div class="container-animaux">   
+        <h1 class="animaux-h1">ANIMAUX</h1>  
+        <div class="card-group">
+  <div class="card">
+    <img src="/Images/Habitat/Marais/pingouin.jpg" class="card-img-top" alt="Image de giraffe">
+    <div class="card-body card-marais">
+      <h3 class="title">Pingouins</h3>
+      <ul class="list">
+        <li class="list-group-item border">Nom: Pingu</li>
+        <li class="list-group-item border">Race: Manchot Empereur </li>
+        <li class="list-group-item border">Habitat: Marais</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/Images/Habitat/Marais/flamant.jpg" class="card-img-top" alt="Image de lion">
+    <div class="card-body card-marais">
+        <h3 class="title">Flamants Rose</h3>
+        <ul class="list">
+          <li class="list-group-item border">Nom: Doflamingo</li>
+          <li class="list-group-item border">Race: Flamant rose </li>
+          <li class="list-group-item border">Habitat: Marais</li>
+        </ul>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/Images/Habitat/Marais/canard.jpg" class="card-img-top" alt="Image de zèbre">
+    <div class="card-body card-marais">
+      <h3 class="title">Canard</h3>
+      <ul class="list">
+        <li class="list-group-item border">Nom: Daffy</li>
+        <li class="list-group-item border">Race: Canard colvert</li>
+        <li class="list-group-item border">Habitat: Marais</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<%- include("partials/footer.ejs") %>
