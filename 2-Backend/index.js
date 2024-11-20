@@ -1,8 +1,8 @@
 import express from "express";
 import bodyParser from "body-parser";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-const __dirname = dirname(fileURLToPath(import.meta.url));
+// import { dirname } from "path";
+// import { fileURLToPath } from "url";
+// const __dirname = dirname(fileURLToPath(import.meta.url));
 import pg from "pg";
 
 
@@ -52,7 +52,7 @@ app.use(express.static("public"));
 // app.use(passGenerator);
  
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/public/connexion_bk.html");
+    res.render("connexion.ejs"); //__dirname + "/public/connexion_bk.html"
 });
 
 app.post("/check", async (req, res) => {
@@ -69,7 +69,7 @@ app.post("/check", async (req, res) => {
       const storedPassword = user.password;
 
       if (password === storedPassword) {
-        res.sendFile(__dirname + "/public/secret.html");
+        res.render("secrets.ejs");  //__dirname + "/public/secret.html"
       } else {
         res.send("Mot de passe incorrect.");
       }
@@ -81,9 +81,7 @@ app.post("/check", async (req, res) => {
     console.log(err);
   }
 
-
-
-
+  
     // if (userIsAuthorised) {
     //     res.sendFile(__dirname + "/public/secret.html");
     //   } else {

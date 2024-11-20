@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+
+<div id="form-section">
+
+                 
+    <form action="/check" method="post" id="formulaire">
+      <div class="container">
+        <legend>CONNEXION</legend>
+        <div id="choiceStatut">
+            <h5 id="user"> << Seuls l'administrateur, les véténiraire et le employés peuvent se connecter. >></h5>
+        </div>
+        
+
+        <!----------------------BOOSTRAP------------------------------>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Adresse Mail</label>
+          <input type="email" class="form-control" id="email1" name="username" aria-describedby="emailHelp">
+        </div>  
+        <div class="mb-3">
+          <label for="password" class="form-label">Mot de passe</label>
+          <input type="password" class="form-control" id="password1" name="password">
+        </div>
+        <div class="mb-3 form-check" id="submit">
+          <input type="submit" value="Se Connecter">
+        </div>
+      </div>
+    </form> 
+
+</div>
+
+<%- include("partials/footer.ejs") %>

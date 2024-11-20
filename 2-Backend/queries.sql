@@ -14,7 +14,7 @@ CREATE table roles (
 CREATE table services(
   id SERIAL primary key,
   nom varchar (100),
-  description varchar(100)
+  descriptions varchar(100)
 );
 
 CREATE table animal(
@@ -25,14 +25,14 @@ CREATE table animal(
 
 CREATE table rapport_veterinaire(
   id SERIAL primary key,
-  date date (100),
+  dates date (100),
   detail varchar(100)
 );
 
 CREATE table habitat(
   id SERIAL primary key,
   nom varchar (100),
-  description varchar(100),
+  descriptions varchar(100),
   commentaire_habitat varchar (100)
 );
 
