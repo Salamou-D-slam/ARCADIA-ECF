@@ -61,7 +61,7 @@ app.get("/marais", (req, res) => {
 
 
 app.get("/logout", (req, res) => {
-    res.redirect("/ll");
+    res.redirect("/");
   });
 
 app.post("/check", async (req, res) => {
