@@ -12,11 +12,10 @@ const port = 3000;
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
-  database: "Arcadia DB",
+  database: "ArcadiaDB",
   password: "setifsalamou_19000",
   port: 5432,
 });
-
 
 
 db.connect();
