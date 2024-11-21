@@ -142,3 +142,13 @@ VALUES (8, 'Flamant rose');
 INSERT INTO race
 VALUES (9, 'Canard colvert');
 
+
+
+--UTILISATEUR
+
+CREATE ROLE admin_role SUPERUSER;
+
+CREATE USER admin_user WITH PASSWORD 'mon_mot_de_passe' SUPERUSER;
+
+GRANT nom_du_role TO nom_utilisateur;
+
